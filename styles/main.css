@@ -292,7 +292,7 @@ input[type=text]:focus, textarea:focus, input[type=text]:hover {
     line-height: 1.54;
 }
 
-.related {
+.related-images {
     width: 630px;
     height: 168px;
     border: 1px solid #dfe1e5;
@@ -396,6 +396,36 @@ input[type=text]:focus, textarea:focus, input[type=text]:hover {
 }
 
 .feedback:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.related-text {
+    margin-top: 40px;
+}
+
+.related-text-search {
+    color: #222;
+    font-size: 18px;
+    line-height: 1.33;
+    padding-bottom: 16px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: fit-content(100%) auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 6px;
+}
+
+.grid-item {
+    color: #1a0dab;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.grid-item:hover {
     text-decoration: underline;
     cursor: pointer;
 }
