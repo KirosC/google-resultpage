@@ -203,6 +203,31 @@ input[type=text]:focus, textarea:focus, input[type=text]:hover {
     text-decoration: none;
 }
 
+.stat {
+    margin-left: 150px;
+    padding-left: 16px;
+    padding-right: 8px;
+    padding-bottom: 6px;
+    min-width: 245px;
+    min-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #777;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.result-container {
+    margin-left: 150px;
+    margin-right: 264px;
+}
+
+.result-container2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
 .footer-container {
     height: 82px;
     width: 100%;
@@ -211,12 +236,70 @@ input[type=text]:focus, textarea:focus, input[type=text]:hover {
     bottom: 0;
 }
 
+.result {
+    margin-bottom: 30px;
+}
+
+.result-title {
+    color: #1a0dab;
+    font-size: 18px;
+    line-height: 1.33;
+    cursor: pointer;
+}
+
+.result-title:hover {
+    text-decoration: underline;
+}
+
+.result-link {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.result-url {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 540px;
+    color: #006621;
+    font-size: 14px;
+    padding-top: 1px;
+    line-height: 1.43;
+    float: left;
+}
+
+.nav {
+    width: 8px;
+    height: 5px;
+    cursor: pointer;
+    float: bottom;
+}
+
+.date {
+    display: inline;
+    color: #777;
+}
+
+.result-description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 590px;
+    color: #545454;
+    font-family: arial, sans-serif;
+    font-size: small;
+    text-align: left;
+    line-height: 1.54;
+}
+
 footer {
     height: 40px;
     background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #e4e4e4;
 }
 
 div {
