@@ -411,22 +411,76 @@ input[type=text]:focus, textarea:focus, input[type=text]:hover {
     padding-bottom: 16px;
 }
 
-.grid-container {
+.search-grid-container {
     display: grid;
     grid-template-columns: fit-content(100%) auto;
     grid-column-gap: 40px;
     grid-row-gap: 6px;
 }
 
-.grid-item {
+.search-grid-item {
     color: #1a0dab;
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
 }
 
-.grid-item:hover {
+.search-grid-item:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.pages-grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, fit-content(100%));
+}
+
+.pages {
+    margin: 30px 162px 30px 142px;
+}
+
+.pages-icon {
+    height: 40px;
+}
+
+#G {
+    background-image: url(../images/nav_logo242.png);
+    background-position: -24px 0;
+    width: 28px;
+}
+
+#first-O {
+    background: url(../images/nav_logo242.png) no-repeat -53px 0;
+    width: 20px;
+}
+
+.O {
+    background: url(../images/nav_logo242.png) no-repeat -74px 0;
+    width: 20px;
+}
+
+#Gle {
+    background: url(../images/nav_logo242.png) no-repeat -96px 0;
+    width: 71px;
+}
+
+.number {
+    justify-self: center;
+    color: #4285f4;
+    font-weight: normal;
+    font-size: small;
+    cursor: pointer;
+}
+
+#one {
+rgba(0, 0, 0, 0.87);
+}
+
+.next {
+    justify-self: right;
+    color: #4285f4;
+    font-weight: normal;
+    font-size: small;
     cursor: pointer;
 }
 
@@ -479,4 +533,27 @@ footer > div > div {
 #country {
     color: rgba(0, 0, 0, .54);
     font-size: 15px;
+    line-height: 15px;
+}
+
+#location-container {
+    margin-left: 13px;
+    padding-left: 16px;
+    border-left: 1px solid #e4e4e4;
+}
+
+.location {
+    color: #333;
+    font-weight: bold;
+}
+
+.location-detail {
+    color: #5f6368;
+    font-size: small;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.left-footer {
+    margin-left: 150px;
 }
